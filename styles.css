@@ -1,0 +1,93 @@
+/* 全体設定: ベースフォントや余白を統一するための設定 */
+body {
+    font-family: Arial, sans-serif; /* フォント */
+    line-height: 1.6; /* 行間 */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* 背景色 */
+    color: #333; /* 文字色 */
+}
+
+/* ヘッダー全体のスタイリング */
+header {
+    height: 250px;
+    background-color: #333; /* ヘッダー背景色 */
+    color: #f8f9fa; /* ヘッダー内文字色 */
+    padding: 1px; /* 余白 */
+    text-align: center; /* 中央揃え */
+}
+
+.title1 {
+    font-size: 45px; /* フォントサイズ */
+    margin: 55px 0px 0px 0px; /* 余白（上右下左） */
+}
+
+.nav-list {
+    list-style: none; /* リストマーカーを削除 */
+    padding: 0; /* パディングをリセット */
+    display: flex; /* 横並びレイアウト */
+    justify-content: center; /* 中央揃え */
+    gap: 50px; /* リストアイテム間の隙間 */
+    margin: 20px 0px 0px 0px; /* 余白（上右下左） */
+}
+
+.nav-list-item a {
+    font-size: 17px;
+    text-decoration: none; /* 下線を削除 */
+    color: #f8f9fa; /* 文字色 */
+    font-weight: bold; /* 強調表示 */
+    transition: color 0.3s; /* ホバー時の色の変化速度 */
+}
+
+.nav-list-item a:hover {
+    color: #79b5e0; /* 水色に変更 */
+    /* text-decoration: underline; */ /* ホバー時に下線を追加 */
+}
+
+/* メインセクションのタイトルのスタイリング */
+.portrait img {
+    width: 300px;  
+    height: auto;
+    margin: 40px 150px 40px 200px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-text {
+    margin: 30px 0px 30px 0px;
+}
+
+.title2 {
+    font-size: 25px;
+    color: #333;
+    padding: 1px;
+}
+
+.about-me {
+    font-size: 17px;
+    color: #333;
+    margin: -10px 0px 50px 0px;
+    padding: 1px;
+}
+
+.news-list {
+    list-style: none; /* リストマーカーを削除 */
+    margin: -10px 0px 50px 0px;
+    padding: 1px;
+}
+
+.news-list-item {
+    font-size: 17px;
+    margin: 0px 0px 15px 0px;
+}
+
+/* フッター全体のスタイリング */
+footer {
+    background-color: #333; /* フッターの背景色を濃いグレーに設定 */
+    color: #f8f9fa; /* 文字色を白色に設定 */
+    text-align: center; /* テキストを中央揃え */
+    padding: 1px; /* 上下の余白を少し追加 */
+    font-size: 12px;
+}
